@@ -15,6 +15,7 @@ class Myblog(models.Model):
         verbose_name="Изображение",
         help_text="Загрузите изображение",
     )
+
     created_at = models.DateField(
         verbose_name="Дата создания",
         help_text="Введите дату создания поста",
